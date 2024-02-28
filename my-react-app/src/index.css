@@ -1,0 +1,201 @@
+:root {
+  --primary-color: #eed92c;
+  --font-color: #054d6f;
+  --bg-primary: #0b7758;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-light {
+  background-color: var(--bg-primary) !important;
+}
+
+a {
+  color: #fff !important;
+}
+
+.hero {
+  height: 91vh;
+  color: var(--secondary-color);
+  padding: 2rem;
+  background-image: url(./image/car.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.display-4 {
+  color: #fff;
+}
+
+.lead {
+  color: #fff !important;
+}
+
+.btn-secondary {
+  background-color: var(--bg-primary) !important;
+}
+
+.garage {
+  background-image: url("./image/car.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.about {
+  background-image: url("./image/car.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
+  position: relative;
+  top: -60%;
+
+}
+
+
+
+
+.footer {
+  background-color: var(--bg-primary);
+}
+
+/* Dashboard container */
+.dashboard {
+  background-color: rgb(224, 224, 224);
+  padding: 20px;
+  height: 100vh;
+}
+
+/* Course card */
+.course-card {
+  background-color: var(--bg-primary);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.course-card h4 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+/* Video container */
+.video-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+/* Play button */
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.play-button:hover {
+  background-color: #0056b3;
+}
+
+.about-header {
+  background-image: url("./image/About.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+.about-content {
+  padding: 50px 0;
+}
+
+.card-link {
+
+padding: 2rem !important;
+background-color: yellow !;
+
+}
+
+.course-card {
+  background-color: #1d293e;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.course-card:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background-color: var(--bg-primary) !important;
+  outline: none !important;
+}
+
+.sidebar-bg {
+  background-color: #1d293e;
+  height: 100vh;
+}
+
+.sidebar-bg li {
+  margin: 2rem;
+}
+.progress-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.sidebar-bg a {
+  color: #fff !important;
+}
+.statistics h4 {
+  font-family: sans-serif;
+  color: black !important;
+  font-weight: #fff;
+}
+
+
+
+.nav-item.profile {
+  font-weight: bold; 
+}
+
+.profile-photo {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+}
+
+.profile-name {
+  font-size: 18px; 
+  margin-left: 10px; 
+}
+
+.dropdown-menu {
+  background-color: #1d293e !important;
+}
+
+.dropdown-item:hover {
+
+  color: black !important;
+}
